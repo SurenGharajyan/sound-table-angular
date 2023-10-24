@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "soundType": "Music",
+    "fileName": "music-1"
+  },
+  {
+    "id": 2,
+    "soundType": "Voice",
+    "fileName": "voice"
+  },
+  {
+    "id": 3,
+    "soundType": "SFX",
+    "fileName": "simple-sfx"
+  },
+  {
+    "id": 4,
+    "soundType": "Music",
+    "fileName": "music-2"
+  }
+]

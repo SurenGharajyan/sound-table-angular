@@ -1,0 +1,10 @@
+<main class="main">
+  <h1>Sounds Table Angular</h1>
+  <app-sound-table
+    (soundSelectedEmit)="handleSelectSound($event)"
+  ></app-sound-table>
+  <app-sound-player
+    *ngIf="selectedSound"
+    [selectedSoundName]="selectedSound"
+  ></app-sound-player>
+</main>

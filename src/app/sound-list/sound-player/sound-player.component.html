@@ -1,0 +1,11 @@
+<div
+  class="audio-player-wrapper"
+  *ngIf="selectedSoundName"
+>
+  <audio
+    controls
+    [volume]=".2"
+    [src]="URL_PATH + '/' + selectedSoundName + '.mp3'"
+  >
+  </audio>
+</div>

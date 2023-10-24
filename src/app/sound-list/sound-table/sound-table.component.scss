@@ -1,0 +1,12 @@
+:host {
+  .sound-table-wrapper {
+    display: block;
+  }
+
+  .custom-mat-table {
+    .mat-row:hover {
+      cursor: pointer;
+      background-color: #626161;
+    }
+  }
+}
